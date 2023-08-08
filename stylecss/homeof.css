@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.3)), url(../Img/logo1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  font-size: 90px;
+  font-style: oblique;
+}
+
+header .menu {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+
+}
+
+header .menu li {
+  display: inline-block;
+}
+
+header .menu a {
+  color: rgb(8, 8, 6);
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: 200ms;
+  font-size: 40px;
+}
+
+header .menu .ativo,
+header .menu a:hover {
+  color: #00000044;
+  background-color: rgb(253, 253, 253);
+}
+
+.principal {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+.principal h2 {
+  color: white;
+  font-size: 50px;
+
+}
+
+.principal .links a {
+  color: aliceblue;
+  padding: 20px 28px;
+  display: inline-block;
+  border: 1pix solid white;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: 200ms;
+}
+
+.a {
+  font-size: larger;
+
+
+}
+
+.principal .links a:hover {
+  color: #444;
+  background-color: aliceblue;
+
+}
+
+/* img descendo */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  background-image: ;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
