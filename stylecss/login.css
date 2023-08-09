@@ -54,6 +54,7 @@ body {
 .login-button {
     display: flex;
     align-items: center;
+    
 }
 
 .login-button button {
@@ -62,10 +63,11 @@ body {
     padding: 0.4rem 1rem;
     border-radius: 5px;
     cursor: pointer;
+    margin: 1px;
 }
 
 .login-button button:hover {
-    background-color: #190eecf1;
+    background-color: #160bf0b7;
 }
 
 .login-button button a {
