@@ -5,19 +5,17 @@
     margin: 0;
 }
 
-.son {
-    flex: auto;
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    justify-content: space-between;
 
-}
 .nav, .navbar-nav{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     flex-direction: row;
+    justify-content: space-between;
+    
+    
+    
 }
+
 
 .button {
     display: flex;
@@ -35,7 +33,7 @@
 
 
 .lista1 {
-    position: relative;
+    
     width: 150px;
     text-align: center;
     border: 2px;
