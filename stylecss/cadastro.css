@@ -43,11 +43,13 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    padding: 3rem;
+    padding: 5px;
 }
 
 .form-header {
-    margin-bottom: 3rem;
+    margin-bottom: 10px;
+    margin: 20px;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -163,6 +165,7 @@ body {
 
 .continue-button button:hover {
     background-color: #6b63fff1;
+    
 }
 
 .continue-button button a {
@@ -170,6 +173,7 @@ body {
     font-size: 0.93rem;
     font-weight: 500;
     color: #fff;
+        
 }
 
 @media screen and (max-width: 1330px) {
