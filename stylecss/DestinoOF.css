@@ -4,217 +4,417 @@
     padding: 0;
     margin: 0;
 }
-.nav, .navbar-nav{
-    /* display: flex; */
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    
-    
-    
+:root {
+    --main-color:#000000;
+    --primary-text-color: #000000;
+    --secondary-text-color: #450051;
+    --secondary-color: #700f79;
+    --tertiary-color: #9b1ea1;
 }
 
 
-.button {
-    display: flex;
-    flex: auto;
-    border-radius: 30px;
-    margin-bottom: auto;
-    margin-top: auto;
-    text-align: center;
+/* HEADER */
+
+#logo {
+    width: 40%
+}
+
+.box {
+    border-bottom: var(--secondary-text-color);
+}
+
+.t:hover {
+
+    color: var(--secondary-text-color)!important;
+
+}
+
+/* SEÇÃO PROVA SOCIAL */
+
+#proveSocial {
     justify-content: center;
-    cursor: pointer;
-    flex-wrap: wrap;
-    list-style: none;
+}
+
+.titleProveSocial,
+.subTitleProveSocial,
+.fontProveSocial {
+    text-align: left;
+}
+
+.titleProveSocial {
+    font-weight: 700;
+}
+
+.titleProveSocial::before {
+    content: " ";
+    background-color:var(--tertiary-color);
+    display: block;
+    height: 2px;
+    width: 100%;
+}
+
+.fontProveSocial {
+    font-size: 0.7em;
+}
+
+.col-text-prove {
+    align-self: center;
+}
+
+.imgProve {
+    max-width: 100%;
 
 }
 
+li {
+    list-style-type: none;
+}
 
-.lista1 {
-    
-    width: 150px;
+/* SEÇÃO SOBRE O PRODUTO */
+
+.carreira {
+    margin-top: 20px;
+}
+
+#btn-cadastro {
+    display: block;
+    margin: auto;
+
+}
+
+#btn-cadastro2 {
+    display: none;
+}
+
+#btn-aboutproduct {
+    margin-top: 100px;
+}
+
+#cards-group img {
+    width: 30%;
+}
+
+#cards-group .card-box {
+    width: 95%;
+    height: 53vh;
+    margin: auto;
+    box-shadow: 10px 10px 5px 0px var(--tertiary-color)   (113, 227, 97, 1);
+    border-radius: 0px 80px 0px 0px;
+}
+
+/* FIM SEÇÃO ABOUT PRODUCT */
+/* SEÇÃO QUEM SOMOS */
+
+#titleMembers {
     text-align: center;
-    border: 2px;
-    box-shadow: rgba(99, 87, 87, 0.56) 0px 22px 70px 4px;
-    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    margin: 10px;
-    padding: 12px;
-    border-radius: 20px;
-
+    font-weight: 600;
+    color: white;
+    padding: 1.5em 1em;
 }
 
-.place {
+/* estilização dos cards */
+
+#ourValues {
+    display: block;
+    max-width: 200px;
+    margin-top: 2rem;
+}
+
+#ourValues:hover {
+    color: #55da48;
+}
+
+.cards-wrapper {
     display: flex;
-    align-self: flex-end;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
-
-.pesquisa {
-    margin-right: 30px;
-    margin-bottom: 30px;
-    border-radius: 25px;
-    text-align: center;
-
-
+.cartao {
+    background-color: #2B332C;
+    margin: 2em 5em;
+    width: calc(100%/2);
+    background: linear-gradient(to right, #373737, #000000);
+    border-radius: 10px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
 }
 
-.button li:hover {
-    transition: background 1s;
-    font-family: 'Arvo', serif;
-    background-color: rgb(0, 0, 0);
-    border: 3px solid white;
-
+.cards-wrapper:hover>.card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
 }
 
-.lista1:hover {
-    transition: background 1s;
-    font-size: 150%;
-
+#imageMembers {
+    max-width: 150px;
+    margin: 10px;
+    border-radius: 50%;
 }
 
-.pesquisa:hover {
-    font-size: 120%;
-}
+.iconMembers {
+    max-width: 3em;
 
-.btn-success:hover {
-    font-size: 150%;
 }
 
 .texto {
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    color: black;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Lugrasimo', cursive;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    border-radius: 10px;
-}
-
-/* ate aqui foi meu head*/
-h2 {
-
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
-    color: #000000;
-}
-
-p {
-    color: rgb(0, 0, 0);
-    font-family: 'Arvo', serif;
-    font-size: medium;
-    width: 100%;
-    text-align: center;
-
-
-}
-
-.imgPrincipal {
-    box-shadow: rgba(0, 0, 0, 0.918) 0px 22px 70px 4px;
-    width: 99%;
-    background-image: url(../Img/rio\ de\ janeiro.jpeg);
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 10px;
-    border-radius: 20px;
-
-}
-
-
-
-.card {
-
-    box-shadow: rgba(0, 0, 0, 0.212) 0px 22px 70px 4px;
-}
-
-/* cards deitado */
-#about-area {
-    background-color: #44444421;
+    color: rgb(168, 173, 173);
 }
 
 .card-title {
-    text-align: center;
+    color: #55da48;
+    box-shadow: 0px 0.9px 0px 0px #55da48;
 }
 
-.main-title {
-    background-color: #44444457;
-    margin: 0 0 65px 0;
-    font-size: 40px;
-    text-align: center;
+#firstTitleOurValues {
+    margin-top: 30px;
 }
 
-.main-title::after {
-
-    border-top: 2px solid #333;
-    width: 15%;
-    position: absolute;
-    top: 60px;
-    left: 42.5%;
+.firstTitleOurValues::after {
+    content: " ";
+    background-color: #55da48;
+    display: block;
+    height: 1px;
+    width: 20%;
 }
 
-.about-title {
-    font-size: 17px;
-    color: #000000;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
+.boxOurValues:hover {
+    color: white;
 }
 
-#about-li,
-.fas,
-.fa-check,
-.direita {
-    text-align: right;
-    list-style: none;
-
+#ourValuesMobile {
+    display: none;
 }
 
-#about-list {
-    list-style-type: none;
-    padding-left: 0;
+#controlCarrousel {
+    width: 70px;
+}
+
+.icons {
+    width: 30%;
+}
+
+.cartao {
+    overflow: hidden;
+}
+
+/* SEÇÃO CONTATO */
+
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
+#contact button {
+    background-color: #55da48;
+    border-radius: 6px;
+    width: 30%;
+    align-self: center;
+}
+
+#contact button:hover {
+    background-color: white;
+    color: black;
+}
+
+#contact-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 5px;
 }
 
 /* rodapé */
-.rodape {
-    background-color: #aca9a873;
-    color: rgb(0, 0, 0);
-    height: auto;
-    width: 100%;
-    font-size: 14px;
-    font-family: helvetica;
-    text-align: center;
-    box-shadow: rgb(0, 0, 0) 0px 22px 70px 4px;
-}
 
-
-.rodape-div {
+#footer {
+    color:var(--main-color);
+    background-color:var(--secondary-text-color)
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: flex-start;
-
+    justify-content: space-evenly;
+    padding: 3rem 3rem 5rem;
 }
 
-
-.rodape-direitos {
-    width: calc(100% - 20px);
-    background-color: rgb(119, 119, 119);
-    padding: 10px;
-
-    text-align: center;
+#logoRodape {
+    width: 50%;
+    height: 150px;
 }
 
-#ro {
-    flex-direction: row-reverse;
-
+.focus-ring {
+    --bs-focus-ring-color: #4acc2a;
 }
 
+#footer a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
 
+.contact-info,
+.links-container {
+    width: 20%;
+}
 
+.footer-brand {
+    margin-bottom: 2rem;
+}
+
+.footer-brand h2 {
+    background-color: var(--main-color);
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+}
+
+.social-networks p {
+    margin-bottom: 1rem;
+}
+
+.networks {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.networks li {
+    list-style-type: none;
+}
+
+#footer .networks i {
+    padding: 1rem;
+}
+
+@media screen and (max-width: 980px) {
+
+    #btn-cadastro {
+        display: none;
+    }
+
+    #btn-cadastro2 {
+        display: block;
+        margin: auto;
+    }
+
+    #aboutproduct {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cards-group .card {
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .img-container {
+        max-width: 350px;
+        max-height: 400px;
+    }
+
+    #ourValues {
+        display: none;
+    }
+
+    .card {
+        margin: 5px;
+
+    }
+
+    .card-text {
+        margin-bottom: 2px;
+    }
+
+    .cards-wrapper {
+        width: 80%;
+        margin: auto;
+    }
+
+    #imageMembers {
+        max-width: 5em;
+    }
+
+    #titleMembers {
+        padding: 20px;
+    }
+
+    #ourValuesMobile {
+        display: block;
+        color: rgb(115, 116, 117);
+        margin: 10px 5px 5px 10px;
+    }
+
+    #controlCarrousel {
+        width: 30px;
+    }
+
+    .iconMembers {
+        max-width: 2em;
+        margin-top: 0.2em;
+        max-width: 1.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #cards-group .card {
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    #ourValues {
+        display: none;
+    }
+
+    .card {
+        margin: 5px;
+
+    }
+
+    .card-text {
+        margin-bottom: 2px;
+    }
+
+    .cards-wrapper {
+        height: 50vh;
+    }
+
+    #imageMembers {
+        max-width: 5em;
+    }
+
+    #titleMembers {
+        padding: 20px;
+    }
+
+    #ourValuesMobile {
+        display: block;
+        color: rgb(115, 116, 117);
+        margin: 10px 5px 5px 10px;
+    }
+
+    #controlCarrousel {
+        width: 30px;
+    }
+
+    .iconMembers {
+        max-width: 2em;
+        margin-top: 0.2em;
+        max-width: 1.5em;
+    }
+
+}
+/* destino termina aqui */
+/* cadastro começa aqui */
+
+/* cadastro termina aqui */
