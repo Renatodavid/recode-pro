@@ -4,10 +4,6 @@
     padding: 0;
     margin: 0;
 }
-<<<<<<< HEAD
-=======
-
-
 .nav, .navbar-nav{
     /* display: flex; */
     align-items: center;
@@ -131,11 +127,7 @@ p {
 
 }
 
-/* .brand {
-    object-fit: fill;
-    width: 100%;
-    border-radius: 20px;
-} */
+
 
 .card {
 
@@ -225,10 +217,4 @@ p {
 }
 
 
-.favicon {
-    text-align: end;
-    height: 10%;
-    width: 10%;
 
-}
->>>>>>> 18e563d1867830003fac24778a4dc0c9a60112dd
