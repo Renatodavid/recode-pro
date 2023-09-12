@@ -6,7 +6,7 @@
 }
 
 .container {
-
+    height: auto;
     width: auto;
     background-color: rgb(54, 8, 97);
 
@@ -59,6 +59,15 @@ label {
     color: antiquewhite;
 }
 
+.button {
+    background-color: rgb(132, 0, 255);
+    border-radius: 2px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .pagination,
 btn,
 btn-light {
@@ -67,7 +76,7 @@ btn-light {
 
 @media screen and (max-width: 228px) {
     img {
-        width: 1%;
+        width: 100%;
 
     }
 
@@ -102,7 +111,7 @@ btn-light {
 
 @media screen and (max-width: 1488px) {
     img {
-        width: 20%;
+        width: 30%;
 
 
     }
