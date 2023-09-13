@@ -5,416 +5,88 @@
     margin: 0;
 }
 :root {
-    --main-color:#000000;
+    --main-color:#ffffff;  
     --primary-text-color: #000000;
     --secondary-text-color: #450051;
     --secondary-color: #700f79;
-    --tertiary-color: #9b1ea1;
+    --tertiary-color: rgb(101, 44, 122);
 }
-
 
 /* HEADER */
 
-#logo {
-    width: 40%
-}
-
-.box {
-    border-bottom: var(--secondary-text-color);
-}
-
-.t:hover {
-
-    color: var(--secondary-text-color)!important;
-
-}
-
-/* SEÇÃO PROVA SOCIAL */
-
-#proveSocial {
-    justify-content: center;
-}
-
-.titleProveSocial,
-.subTitleProveSocial,
-.fontProveSocial {
-    text-align: left;
-}
-
-.titleProveSocial {
-    font-weight: 700;
-}
-
-.titleProveSocial::before {
-    content: " ";
-    background-color:var(--tertiary-color);
-    display: block;
-    height: 2px;
-    width: 100%;
-}
-
-.fontProveSocial {
-    font-size: 0.7em;
-}
-
-.col-text-prove {
-    align-self: center;
-}
-
-.imgProve {
-    max-width: 100%;
-
-}
-
-li {
-    list-style-type: none;
-}
-
-/* SEÇÃO SOBRE O PRODUTO */
-
-.carreira {
-    margin-top: 20px;
-}
-
-#btn-cadastro {
-    display: block;
-    margin: auto;
-
-}
-
-#btn-cadastro2 {
-    display: none;
-}
-
-#btn-aboutproduct {
-    margin-top: 100px;
-}
-
-#cards-group img {
-    width: 30%;
-}
-
-#cards-group .card-box {
-    width: 95%;
-    height: 53vh;
-    margin: auto;
-    box-shadow: 10px 10px 5px 0px var(--tertiary-color)   (113, 227, 97, 1);
-    border-radius: 0px 80px 0px 0px;
-}
-
-/* FIM SEÇÃO ABOUT PRODUCT */
-/* SEÇÃO QUEM SOMOS */
-
-#titleMembers {
-    text-align: center;
-    font-weight: 600;
-    color: white;
-    padding: 1.5em 1em;
-}
-
-/* estilização dos cards */
-
-#ourValues {
-    display: block;
-    max-width: 200px;
-    margin-top: 2rem;
-}
-
-#ourValues:hover {
-    color: #55da48;
-}
-
-.cards-wrapper {
-    display: flex;
-}
-
-.cartao {
-    background-color: #2B332C;
-    margin: 2em 5em;
-    width: calc(100%/2);
-    background: linear-gradient(to right, #373737, #000000);
-    border-radius: 10px;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    scrollbar-width: thin;
-}
-
-.cards-wrapper:hover>.card:not(:hover) {
-    filter: blur(10px);
-    transform: scale(0.9, 0.9);
-}
-
-#imageMembers {
-    max-width: 150px;
-    margin: 10px;
-    border-radius: 50%;
-}
-
-.iconMembers {
-    max-width: 3em;
-
-}
-
-.texto {
-    color: rgb(168, 173, 173);
-}
-
-.card-title {
-    color: #55da48;
-    box-shadow: 0px 0.9px 0px 0px #55da48;
-}
-
-#firstTitleOurValues {
-    margin-top: 30px;
-}
-
-.firstTitleOurValues::after {
-    content: " ";
-    background-color: #55da48;
-    display: block;
-    height: 1px;
-    width: 20%;
-}
-
-.boxOurValues:hover {
-    color: white;
-}
-
-#ourValuesMobile {
-    display: none;
-}
-
-#controlCarrousel {
-    width: 70px;
-}
-
-.icons {
-    width: 30%;
-}
-
-.cartao {
-    overflow: hidden;
-}
-
-/* SEÇÃO CONTATO */
-
-#contact {
-    display: flex;
-    justify-content: center;
-}
-
-#contact button {
-    background-color: #55da48;
-    border-radius: 6px;
-    width: 30%;
-    align-self: center;
-}
-
-#contact button:hover {
-    background-color: white;
-    color: black;
-}
-
-#contact-area {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    gap: 5px;
-}
-
-/* rodapé */
-
-#footer {
+.container-fluid  {
+    
     color:var(--main-color);
-    background-color:var(--secondary-text-color)
+    background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-evenly;
-    padding: 3rem 3rem 5rem;
+    
+
+}  
+.nav-link ,t ,active{
+    color: var(--main-color);
+    font-size: x-large;
+
+}
+.t:hover {
+    
+    color: var(--primary-text-color)!important;
+
+}
+.navigation-bar {
+    background-color: rgb(101, 44, 122); /* Cor de fundo atualizada */
+    color: white;
+    padding: 10px;
 }
 
-#logoRodape {
-    width: 50%;
-    height: 150px;
+.navigation-bar select, .navigation-bar input[type="date"], .navigation-bar input[type="number"], .navigation-bar button {
+    margin-right: 10px;
 }
 
-.focus-ring {
-    --bs-focus-ring-color: #4acc2a;
+
+.navigation-bar button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
-#footer a {
-    color: var(--primary-text-color);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* rodapé */
+#footerdestino{
+    color:var(--main-color);
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 3rem 1rem; 
+}
+#footerdestino a {
+    color: var(--main-color);
     text-decoration: none;
 }
-
-.contact-info,
-.links-container {
-    width: 20%;
-}
-
-.footer-brand {
-    margin-bottom: 2rem;
-}
-
-.footer-brand h2 {
-    background-color: var(--main-color);
-    margin-bottom: 0.5rem;
-    padding: 1rem;
-}
-
-.contact-info p {
-    margin-bottom: 1rem;
-}
-
-.social-networks p {
-    margin-bottom: 1rem;
-}
-
 .networks {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 4rem;
 }
-
-.networks li {
-    list-style-type: none;
+#logoRodape{
+   width: 50%;
+   align-items: center;
+   margin: 20%;
+   
 }
-
-#footer .networks i {
-    padding: 1rem;
-}
-
-@media screen and (max-width: 980px) {
-
-    #btn-cadastro {
-        display: none;
-    }
-
-    #btn-cadastro2 {
-        display: block;
-        margin: auto;
-    }
-
-    #aboutproduct {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #cards-group .card {
-        width: 80%;
-        margin: auto;
-        margin-top: 10px;
-    }
-
-    .img-container {
-        max-width: 350px;
-        max-height: 400px;
-    }
-
-    #ourValues {
-        display: none;
-    }
-
-    .card {
-        margin: 5px;
-
-    }
-
-    .card-text {
-        margin-bottom: 2px;
-    }
-
-    .cards-wrapper {
-        width: 80%;
-        margin: auto;
-    }
-
-    #imageMembers {
-        max-width: 5em;
-    }
-
-    #titleMembers {
-        padding: 20px;
-    }
-
-    #ourValuesMobile {
-        display: block;
-        color: rgb(115, 116, 117);
-        margin: 10px 5px 5px 10px;
-    }
-
-    #controlCarrousel {
-        width: 30px;
-    }
-
-    .iconMembers {
-        max-width: 2em;
-        margin-top: 0.2em;
-        max-width: 1.5em;
-    }
-}
-
-@media screen and (max-width: 500px) {
-
-    #cards-group .card {
-        width: 80%;
-        margin: auto;
-        margin-top: 10px;
-        padding: 5px;
-    }
-
-    #ourValues {
-        display: none;
-    }
-
-    .card {
-        margin: 5px;
-
-    }
-
-    .card-text {
-        margin-bottom: 2px;
-    }
-
-    .cards-wrapper {
-        height: 50vh;
-    }
-
-    #imageMembers {
-        max-width: 5em;
-    }
-
-    #titleMembers {
-        padding: 20px;
-    }
-
-    #ourValuesMobile {
-        display: block;
-        color: rgb(115, 116, 117);
-        margin: 10px 5px 5px 10px;
-    }
-
-    #controlCarrousel {
-        width: 30px;
-    }
-
-    .iconMembers {
-        max-width: 2em;
-        margin-top: 0.2em;
-        max-width: 1.5em;
-    }
-
-}
-/* destino termina aqui */
-/* cadastro começa aqui */
-
-/* cadastro termina aqui */

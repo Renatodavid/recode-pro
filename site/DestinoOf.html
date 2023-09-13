@@ -18,24 +18,24 @@
   <title>Destino</title>
 </head>
 
-<body>
+<body class="dark">
   <header>
     <nav class="navbar navbar-expand-lg bg-body-light">
       <div class="container-fluid bg-nav box">
-        <a class="navbar-brand" href="#"><img class="img-fluid st teste-img" src="../img/logofiv.png"
-            alt="logo do projeto" width="180" height="41"></a>
+        <a class="navbar-brand" href="#"><img class="img-fluid st teste-img" src="../img/logo_branco.png"
+            alt="logo do projeto" width="110" height="31"></a>
         <button class="navbar-toggler bg-light text-success" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto me-3 mb-2 mb-lg-2 fs-2 gap-5  ">
+          <ul class="navbar-nav m-auto me-1 mb-1 mb-lg-2 fs-2 gap-5  ">
             <li class="nav-item">
               <a class="nav-link t " href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link t active" href="#"> Destino </a>
+              <a class="nav-link t " href="#"> Destino </a>
             </li>
             <li class="nav-item">
               <a class="nav-link t" href="#"> Promoções </a>
@@ -48,14 +48,26 @@
       </div>
     </nav>
   </header>
-<hr>
- 
-  <div class="containerImagPrincipal">
-    <div class="imgPrincipal">
+  
+  <div class=" container fluid">
+    <div>
+      <h1>Pesquise hotéis em RenaTour</h1>
+      <h6>Insira as suas datas para ver os preços e ofertas mas recentes para hotéis</h6>
+    </div>
+    <div class="row g-2">
+      <div class="navigation-bar">
+        <select>
+          <option value="">Selecione o Lugar</option>
+          <option value="destino1">Destino 1</option>
+          <option value="destino2">Destino 2</option>
+        </select>
+        <input type="date">
+        <input type="number" placeholder="Quantidade de Pessoas">
+        <button type="button" class="">Pesquisar</button>
+      </div>
     </div>
   </div>
 
-  <!-- futuramente adicionar a funcionalidade de menu nos cards -->
   <div id="about-area">
     <div class="container">
       <div class="row">
@@ -83,12 +95,11 @@
       </div>
     </div>
   </div>
-  </div>
 
   <div class="container">
     <div id="about-area">
       <div class="container">
-        <div class="row" id="ro">
+        <div class="row">
           <div class="col-12">
             <h3 class="main-title"></h3>
           </div>
@@ -143,7 +154,7 @@
               <li><i class="fas fa-check"></i> Utilizando o site RENATOUR@ voce ganha cupons de desconto.</li>
             </ul>
             <button type="button" class="btn btn-success">R$ 1.000.00</button>
-            
+
           </div>
         </div>
       </div>
@@ -214,20 +225,20 @@
   <!-- Indicators/dots -->
 
   <!-- rodapé -->
-  <footer id="footer">
+  <footer id="footerdestino">
     <div class="container-fluid row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3">
       <div class="col" id="contact-info">
-        <div class="footer-brand">
-          <img id="logoRodape" src="../Img/logofiv.png" alt="conectjob" class="img-fluid col-md-6">
+        <div class="footer-brand mt-1">
+          <img id="logoRodape" src="../Img/logo_branco.png" alt="Rr" class="img-fluid col-md-6 my-3">
           <hr>
         </div>
-        <p><i class="bi bi-geo-alt"></i> Petropólis  Rio de Janeiro RJ </p>
+        <p><i class="bi bi-geo-alt"></i> Petropólis Rio de Janeiro RJ </p>
         <p><i class="bi bi-telephone"></i> (99)9999-9999</p>
         <p><i class="bi bi-envelope"></i> renato.david@aluno.recode.org.br</p>
       </div>
-     
+
       <div class="col mt-5 ">
-        <h4 class="mt-4 my-4 text-center">Outros serviços</h4>
+        <h4 class="mt-4 my-5 ">Outros serviços</h4>
         <nav>
           <a href="#">Propriedade intelecutal</a>
           <hr>
@@ -237,14 +248,13 @@
         </nav>
       </div>
 
-      <div class="col mt-5 ">
+      <div class="col mt-5  ">
         <div class="social-networks">
           <h4 class="mt-4 text-center">Siga-nos</h4>
           <div class="networks  my-5 ">
-            
-            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-facebook "></i></a>
             <a href="https://github.com/renatodavid" target="_blank"><i class="bi bi-github"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-linkedin "></i></a>
             <a href="#"><i class="bi bi-instagram"></i></a>
           </div>
         </div>
@@ -261,7 +271,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
     crossorigin="anonymous"></script>
 
