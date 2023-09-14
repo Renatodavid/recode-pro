@@ -5,32 +5,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Hind&family=Roboto+Slab:wght@300&display=swap"
-    rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="shortcut icon" href="../Img/logofiv.png" type="image/x-icon">
   <link rel="stylesheet" href="../stylecss/index.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
   <title>Destino</title>
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <nav class="navbar navbar-expand-lg bg-body-light">
       <div class="container-fluid bg-nav box">
         <a class="navbar-brand" href="#"><img class="img-fluid st teste-img" src="../img/logo_branco.png"
-            alt="logo do projeto" width="110" height="31"></a>
+            alt="logo do projeto" width="100" height="41"></a>
         <button class="navbar-toggler bg-light text-success" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto me-1 mb-1 mb-lg-2 fs-2 gap-5  ">
+          <ul class="navbar-nav m-auto me-5  mb-lg-2 fs-2 gap-5  ">
             <li class="nav-item">
               <a class="nav-link t " href="#">Home</a>
             </li>
@@ -47,15 +46,14 @@
         </div>
       </div>
     </nav>
-  </header>
-  
-  <div class=" container fluid">
-    <div>
+    <div class=" container " id="texto-logo">
+
       <h1>Pesquise hotéis em RenaTour</h1>
       <h6>Insira as suas datas para ver os preços e ofertas mas recentes para hotéis</h6>
     </div>
-    <div class="row g-2">
-      <div class="navigation-bar">
+    </div>
+    <div class="container mt-5 text-center " style="width:60%">
+      <div class="navigation-bar  ">
         <select>
           <option value="">Selecione o Lugar</option>
           <option value="destino1">Destino 1</option>
@@ -66,8 +64,8 @@
         <button type="button" class="">Pesquisar</button>
       </div>
     </div>
-  </div>
 
+  </header>
   <div id="about-area">
     <div class="container">
       <div class="row">
@@ -154,7 +152,6 @@
               <li><i class="fas fa-check"></i> Utilizando o site RENATOUR@ voce ganha cupons de desconto.</li>
             </ul>
             <button type="button" class="btn btn-success">R$ 1.000.00</button>
-
           </div>
         </div>
       </div>
@@ -220,10 +217,9 @@
         </div>
       </div>
     </div>
-
   </div>
   <!-- Indicators/dots -->
-
+  <hr>
   <!-- rodapé -->
   <footer id="footerdestino">
     <div class="container-fluid row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3">
@@ -233,11 +229,14 @@
           <hr>
         </div>
         <p><i class="bi bi-geo-alt"></i> Petropólis Rio de Janeiro RJ </p>
+        <hr>
         <p><i class="bi bi-telephone"></i> (99)9999-9999</p>
+        <hr>
         <p><i class="bi bi-envelope"></i> renato.david@aluno.recode.org.br</p>
+
       </div>
 
-      <div class="col mt-5 ">
+      <div class="col mt-5 text-center ">
         <h4 class="mt-4 my-5 ">Outros serviços</h4>
         <nav>
           <a href="#">Propriedade intelecutal</a>
@@ -245,22 +244,28 @@
           <a href="#">LGPD</a>
           <hr>
           <a href="#">Direito internacional</a>
+
         </nav>
       </div>
 
       <div class="col mt-5  ">
         <div class="social-networks">
           <h4 class="mt-4 text-center">Siga-nos</h4>
-          <div class="networks  my-5 ">
+
+          <div class="networks  my-5  ">
             <a href="#"><i class="bi bi-facebook "></i></a>
             <a href="https://github.com/renatodavid" target="_blank"><i class="bi bi-github"></i></a>
-            <a href="#"><i class="bi bi-linkedin "></i></a>
+            <a href="#"><i class="bi bi-linkedin  "></i></a>
             <a href="#"><i class="bi bi-instagram"></i></a>
           </div>
+          <hr>
         </div>
       </div>
-      <p class="container text-center mt-5"><i class="bi bi-c-circle"></i> RENATOUR - Todos os direitos
-        reservados</p>
+      <div>
+
+        <p class="container text-center mt-5"><i class="bi bi-c-circle"></i> RENATOUR - Todos os direitos
+          reservados</p>
+      </div>
     </div>
   </footer>
 

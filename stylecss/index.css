@@ -4,8 +4,9 @@
     padding: 0;
     margin: 0;
 }
+
 :root {
-    --main-color:#ffffff;  
+    --main-color: #ffffff;
     --primary-text-color: #000000;
     --secondary-text-color: #450051;
     --secondary-color: #700f79;
@@ -13,80 +14,94 @@
 }
 
 /* HEADER */
+#header {
+    min-height: 90vh;
+    background-image: url("../Img/Catedral_Santiago.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--main-color);
+    margin-bottom: 2rem;
+    margin-top: -10px;
+    position: relative;
 
-.container-fluid  {
-    
-    color:var(--main-color);
+}
+
+.container-fluid {
+    color: var(--main-color);
     background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-evenly;
-    
 
-}  
-.nav-link ,t ,active{
+}
+
+.nav-link,
+t,
+active {
     color: var(--main-color);
     font-size: x-large;
 
 }
-.t:hover {
-    
-    color: var(--primary-text-color)!important;
 
+.t:hover {
+    color: var(--primary-text-color) !important;
 }
+
 .navigation-bar {
-    background-color: rgb(101, 44, 122); /* Cor de fundo atualizada */
+    background-color: rgba(101, 44, 122, 0.651);
+    /* Cor de fundo atualizada */
     color: white;
     padding: 10px;
+    margin: 10%;
+    gap: 5vh;
 }
 
-.navigation-bar select, .navigation-bar input[type="date"], .navigation-bar input[type="number"], .navigation-bar button {
-    margin-right: 10px;
-}
+.navigation-bar button,
+button,
+select,
+input,
+option {
 
-
-.navigation-bar button {
     background-color: white;
     border: none;
     color: black;
-    padding: 10px 20px;
+    padding: 5px 20px;
     cursor: pointer;
+    border-radius: 15px;
+    margin-bottom: auto;
+
 }
 
+#texto-logo {
 
-
-
-
-
-
-
-
-
-
-
-
-
+    padding: 2%;
+    margin: 10px;
+}
 
 /* rodapé */
-#footerdestino{
-    color:var(--main-color);
+#footerdestino {
+    color: var(--main-color);
     background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-evenly;
-    padding: 3rem 3rem 1rem; 
+    padding: 3rem 3rem 1rem;
 }
+
 #footerdestino a {
     color: var(--main-color);
     text-decoration: none;
 }
+
 .networks {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 5rem;
+    margin: 60px !important;
 }
-#logoRodape{
-   width: 50%;
-   align-items: center;
-   margin: 20%;
-   
+
+#logoRodape {
+    width: 42%;
+    align-items: center;
+    margin: 20%;
+
 }
