@@ -118,3 +118,11 @@ button {
     width: 67%;
     margin: auto;
 }
+.botao{
+    background-color: var(--main-color);
+    width: 10%;
+}
+.botao:hover{
+    color: var(--main-color);
+    background-color: var(--secondary-text-color );
+}
