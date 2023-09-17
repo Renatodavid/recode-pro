@@ -142,3 +142,17 @@ button {
     margin: 20%;
 
 }
+/* cards pequenos
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    
+    max-width: 100%;
+  }
+  
+  .card {
+   
+    width: 300px;
+    height: 300px;
+    
+  }
