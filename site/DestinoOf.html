@@ -10,8 +10,8 @@
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="shortcut icon" href="../Img/logofiv.png" type="image/x-icon">
   <link rel="stylesheet" href="../stylecss/index.css">
- 
-  
+
+
   <title>Destino</title>
 </head>
 
@@ -45,8 +45,8 @@
       </div>
     </nav>
     <div class=" container " id="texto-logo">
-      <h1> Pesquise hotéis em RenaTour </h1 >
-      <h6>Confira  preços e ofertas mas recentes de hotéis</h6>
+      <h1> Pesquise hotéis em RenaTour </h1>
+      <h6>Confira preços e ofertas mas recentes de hotéis</h6>
     </div>
     </div>
     <div class="pesquisa  text-center ">
@@ -54,12 +54,52 @@
         <input type="" placeholder="Pesquise sua viagem">
         <input type="date">
         <input type="number" placeholder="Quantidade de Pessoas">
-        <button type="" class="botao">Pesquisar</button>
+        <button type="" class="botao" style="color: rgb(255, 254, 254); background-color: blueviolet;">Pesquisar</button>
       </div>
     </div>
   </header>
   <!-- carroussel começa aqui -->
- <hr>
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img src="../Img/BuziosPraia.jpg" alt="Buzios" class="d-block w-100">
+        <div class="carousel-caption">
+          <h3>Buzios</h3>
+          <button type="button" class="botaoC" style="background-color:  #700f79">R$ 1.900.00</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../Img/Chile.jpg" alt="Chile" class="d-block w-100">
+        <div class="carousel-caption">
+          <h3>Chile</h3>
+          <button type="button" class="botaoC " style="background-color:  #700f79 ">R$ 1.900.00</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../Img/iguacuCarrossel.jpg" alt="Foz" class="d-block w-100">
+        <div class="carousel-caption">
+          <h3>Foz do Iguaçu</h1>
+          <button type="button" class="botaoC " style="background-color:  #700f79 ">R$ 1.900.00</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <!-- fimcarrousel -->
+  <hr>
+  
   <div id="about-area">
     <div class="container">
       <div class="row">
@@ -82,12 +122,15 @@
             <li><i class="fas fa-check"></i>Sistema de pagamento próprio </li>
             <li><i class="fas fa-check"></i>venham curtir suas ferias com &copy;RENATOUR.</li>
           </ul>
-          <button type="button" class="btn btn-success">R$ 1.900.00</button>
+          <button type="button" class="botao " style="background-color:  #700f79 " data-bs-toggle="popover"
+          title="Este preço somente hoje" data-bs-content="">
+          R$ 1.500.00
+        </button>
         </div>
       </div>
     </div>
   </div>
-<hr>
+  <hr>
   <div class="container">
     <div id="about-area">
       <div class="container">
@@ -114,7 +157,10 @@
               <li><i class="fas fa-check direita"></i>Sistema de pagamento com todos os cartões.💳 </li>
               <li><i class="fas fa-check direita"></i>Utilizando o site &RENATOUR@ voce ganha cupons de desconto .</li>
             </ul>
-            <button type="button" class="btn btn-success"> R$ 1.050.00</button>
+            <button type="button" class="botao " style="background-color:  #700f79 " data-bs-toggle="popover"
+            title="Este preço somente hoje" data-bs-content="">
+            R$ 1.500.00
+          </button>
           </div>
         </div>
       </div>
@@ -146,7 +192,10 @@
               <li><i class="fas fa-check"></i> 💳 Sistema de pagamento com todos os cartões. </li>
               <li><i class="fas fa-check"></i> Utilizando o site RENATOUR@ voce ganha cupons de desconto.</li>
             </ul>
-            <button type="button" class="btn btn-success">R$ 1.000.00</button>
+            <button type="button" class="botao " style="background-color:  #700f79 " data-bs-toggle="popover"
+            title="Este preço somente hoje" data-bs-content="">
+            R$ 1.500.00
+          </button>
           </div>
         </div>
       </div>
@@ -179,13 +228,16 @@
                 <li><i class="fas fa-check direita"></i>Utilizando o site &RENATOUR@ voce ganha cupons de desconto .
                 </li>
               </ul>
-              <button type="button" class="btn btn-success"> R$ 1.000.00</button>
+              <button type="button" class="botao " style="background-color:  #700f79 " data-bs-toggle="popover"
+            title="Este preço somente hoje" data-bs-content="">
+            R$ 1.500.00
+          </button>
             </div>
           </div>
         </div>
       </div>
     </div>
-<hr>
+    <hr>
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -209,53 +261,54 @@
             <li><i class="fas fa-check"></i> 💳 Sistema de pagamento com todos os cartões. </li>
             <li><i class="fas fa-check"></i> Utilizando o site RENATOUR@ voce ganha cupons de desconto.</li>
           </ul>
-          <button type="button" class="btn btn-success">R$ 1.100.00</button>
+          <button type="button" class="botao " style="background-color:  #700f79 " data-bs-toggle="popover"
+          title="Este preço somente hoje" data-bs-content="">
+          R$ 1.500.00
+        </button>
         </div>
       </div>
     </div>
   </div>
   <hr>
-  <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-       <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    </div>
-  
-      <div class="carousel-inner ">
-      <div class="carousel-item active">
-        <img src="../Img/BuziosPraia.jpg" alt="Buzios" class="d-block w-100">
-        <div class="carousel-caption">
-          <h3>Buzios</h3>
-          <button type="button" class="btn btn-success">R$ 1.900.00</button>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../Img/Chile.jpg" alt="Chile" class="d-block w-100">
-        <div class="carousel-caption">
-          <h3>Chile</h3>
-          <button type="button" class="btn btn-success">R$ 1.900.00</button>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../Img/iguacuCarrossel.jpg" alt="Foz" class="d-block w-100">
-        <div class="carousel-caption">
-          <h3>Foz do Iguaçu</h3>
-          <h4>Por apenas!</h4>
-          <button type="button" class="btn btn-success">R$ 1.900.00</button>
-        </div>
-      </div>
-    </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
+ 
+  <!-- fim -->
+<!-- começo de cards  -->
+<div class="card" style="width:400px">
+  <h3 class="about-title text-center"> Apart Hotel Montparnasse</h3>
+  <img class="card-img-top" src="../Img/Chile.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Chile</h4>
+    <p class="card-text">Hotel </p>
+    <button type="button" class="botaoCards " style="background-color:  #700f79 " data-bs-toggle="popover"
+          title="Este preço somente hoje" data-bs-content="">
+          R$ 1.500.00
+        </button>
   </div>
-    <!-- fim -->
-  
+</div>
+<div class="card" style="width:400px">
+  <h3 class="about-title text-center"> Apart Hotel Montparnasse</h3>
+  <img class="card-img-top" src="../Img/Chile.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Chile</h4>
+    <p class="card-text">Hotel </p>
+    <button type="button" class="botaoCards " style="background-color:  #700f79 " data-bs-toggle="popover"
+          title="Este preço somente hoje" data-bs-content="">
+          R$ 1.500.00
+        </button>
+  </div>
+</div>
+<div class="card" style="width:400px">
+  <h3 class="about-title text-center"> Apart Hotel Montparnasse</h3>
+  <img class="card-img-top" src="../Img/Chile.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Chile</h4>
+    <p class="card-text">Hotel </p>
+    <button type="button" class="botaoCards " style="background-color:  #700f79 " data-bs-toggle="popover"
+          title="Este preço somente hoje" data-bs-content="">
+          R$ 1.500.00
+        </button>
+  </div>
+</div>
   <hr>
   <!-- rodapé -->
   <footer id="footerdestino">
@@ -313,7 +366,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
     crossorigin="anonymous"></script>
 </body>
