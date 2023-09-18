@@ -142,17 +142,49 @@ button {
     margin: 20%;
 
 }
-/* cards pequenos
-.carousel-item {
+ /* cards pequenos */
+
+.slider-container{
+    position: relative;
+    overflow: hidden; 
+    height: 200px;
+}
+.slider-width{
+    position: absolute;
     display: flex;
-    justify-content: center;
-    
-    max-width: 100%;
-  }
-  
-  .card {
-   
+    align-items: start;
+    justify-content: start;
+    left: 0;
+    top: 0;
+    transition: 0.4s ease-in-out ;
+}
+.item{
+    background: rgb(101, 44, 122);
     width: 300px;
-    height: 300px;
-    
-  }
+    height: 200px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    background: var(--secondary-color);
+    border: var(--primary-text-color);
+    outline: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 20px;
+    padding: 6px 12px;
+    cursor: pointer;
+    left: 500%;
+    transform: translate(-50%);
+   
+}
+
+.btn:nth-child(1){
+    margin-left: -74px;
+}
