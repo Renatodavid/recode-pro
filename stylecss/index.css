@@ -146,8 +146,8 @@ button {
 
 .slider-container{
     position: relative;
-    overflow: hidden; 
-    height: 200px;
+    overflow-x: hidden; 
+    height: 250px;
 }
 .slider-width{
     position: absolute;
