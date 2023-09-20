@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../stylecss/index.css">
+    <title>login</title>
+</head>
+
+<body>
+    <main id="container">
+        <div id="logo"><a href="index.html"><img src="../img/logo_preto.png" alt="" srcset="" style="width: 300px;"></a>
+        </div>
+        <form id="login-form">
+            <div id="form-header">
+                <a id="login" href="login.html">Efetue Login</a>
+                <a id="cadastro" href="cadastro.html">Crie sua conta</a>
+            </div>
+            <div id="inputs">
+            </div>
+            <div class="input-box">
+                <label for="email">
+                    Email
+                    <div class="input-space">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="email" name="email">
+                    </div>
+                </label>
+
+            </div>
+            <div class="input-box">
+                <label for="password">
+                    Senha
+                    <div class="input-space">
+                        <i class="fa-solid fa-key"></i>
+                        <input style="width: 215px;" type="password" id="password" name="password">
+                        <div id="pass-btn"><i class="fa-solid fa-eye" id="btn-password" onclick="showPassword()"></i>
+                        </div>
+                    </div>
+                </label>
+            </div>
+            </div>
+            <div id="form-footer">
+                <button type="submit" id="login-button"><a id="login-anchor" href="homelogado.html">Login</a></button>
+                <div id="esqueceu-senha">
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+            </div>
+        </form>
+    </main>
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

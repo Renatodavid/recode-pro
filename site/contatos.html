@@ -1,81 +1,147 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Hind&family=Roboto+Slab:wght@300&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="shortcut icon" href="../Img/logofiv.png" type="image/x-icon">
-  <link rel="stylesheet" href="../stylecss/contatos.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
-  <title>Contatos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../stylecss/index.css">
 </head>
-<header class="col-md-8 offset-md-1 p-1">
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <ul class="nav navbar-nav">
-        <li class="lista1"><a href="../site/index.html" target="_blank" rel="noopener noreferrer">Home</a></li>
-        <li class="lista1"><a href="../site/DestinoOf.html">Destino</a></li>
-        <li class="lista1"><a href="../site/promoçoes.html" target="_blank" rel="noopener noreferrer">Promoções</a></li>
-        <li class="lista1"><a href="../site/login.html" target="_blank" rel="noopener noreferrer">Login</a></li>
-        <li class="lista1"><a href="../site/contatos.html" target="_blank" rel="noopener noreferrer">Contatos</a></li>
-      </ul>
-      <img class="favicon" src="../Img/logofiv.png">
-    </div>
-  </nav>
 
-  <div class="col-md-9 offset-md-2 p-1">
-    <div class="container">
-      <a><img src="../Img/logofiv.png" alt="minha logo"></a>
-      <div class="container">
-        <div class="container">
-          <a href="https://www.facebook.com/profile.php?id=100033381968936"><img
-              src="../Img/Circle-Facebook-Logo-Transparent-Background.png" alt="facebook"></a>
-          <a href="https://www.instagram.com/eu.renatomarques/"><img src="../Img/logo-instagram.webp"
-              alt="instagram"></a>
-          <a href="https://wa.me/5521987051725/"><img src="../Img/whatsapp.webp" alt="numero do telefone"></a>
-          <a href="https://mail.google.com/mail/u/0/?hl=pt_BR"><img src="../Img/email5.webp" alt="e-mail"></a>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-light">
+            <div class="container-fluid bg-nav box">
+                <a class="navbar-brand" href="#"><img class="img-fluid st teste-img" src="../img/logo_branco.png"
+                        alt="logo do projeto" width="150" height="100"></a>
+                <button class="navbar-toggler bg-light text-success" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto me-3 mb-2 mb-lg-0 fs-5 gap-4  ">
+                        <li class="nav-item">
+                            <a class="nav-link t " href="../html/homelogado.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link t" href="../html/cursos.html"> Cursos </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link t" href="../html/emprego.html"> Vagas </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link t active" href="../html/contatos.html"> Contatos </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <p class="fs-2 text-center"> Entre em contato conosco!</p>
+
+        <section class="row gap-3 row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1" id="area-contato">
+            <div class="col ">
+                <i class="bi bi-geo-alt"></i>
+                <div id="endereco">
+                    <p> Praça Senador Salgado Filho, s/n° – Rio de Janeiro – RJ</p>
+                </div>
+
+            </div>
+            <div class="col ">
+                <i class="bi bi-telephone"></i>
+                 <p>Atendimento ao cliente: (11) 9999-9999</p>
+            </div>
+            </div>
+
+            <div class="col ">
+                <i class="bi bi-envelope"></i>
+                <div id="email">
+                    <p>recodeprosquad12@gmail.com</p>
+                </div>
+            </div>
+
+            <p class="mt-5 fw-bold">* Atendimento de segunda à sexta em horário comercial</p>
+        </section>
+        <hr>
+
+        <section class="mb-5">
+            <p class="fs-3">Deixe sua mensagem</p>
+            <div class="mb-3 ">
+                <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                <input type="text" class="form-control focus-ring " id="exampleFormControlInput1" placeholder="Digite o seu nome">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                <input type="email" class="form-control focus-ring " id="exampleFormControlInput1"
+                    placeholder="Digite seu melhor e-mail">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                <textarea class="form-control focus-ring " id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <button type="button" class="btn btn-success">Enviar</button>
+        </section>
+    </main>
+
+    <footer id="footer">
+
+        <div class="container-fluid row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3">
+            <div class="col" id="contact-info">
+                <div class="footer-brand">
+                    <img id="logoRodape" src="../img/logo_branco.png" alt="conectjob" class="img-fluid h-50">
+                    <hr>
+                </div>
+                <p><i class="bi bi-geo-alt"></i> Praça Senador Salgado Filho, s/n° – Rio de Janeiro – RJ </p>
+                <p><i class="bi bi-telephone"></i>(99)9999-9999</p>
+                <p><i class="bi bi-envelope"></i>recodeprosquad12@gmail.com</p>
+            </div>
+            <div class="col mt-5">
+                <h4 class="mt-4 text-center">Outros serviços</h4>
+                <nav>
+                    <a href="#">Propriedade intelecutal</a>
+                    <hr>
+                    <a href="#">LGPD</a>
+                    <hr>
+                    <a href="#">Direito internacional</a>
+                </nav>
+            </div>
+            <div class="col mt-5">
+                <div class="social-networks">
+                    <h4 class="mt-4 text-center">Siga-nos</h4>
+                    <div class="networks">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="https://github.com/renatodavid" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="container text-center mt-5"><i class="bi bi-c-circle"> &renato - Todos os direitos
+                reservados</i>
+            </p>
         </div>
-      </div>
-      <form class="" action="/action_page.php">
-        <div class="col-md-9 offset-md-1 p-1">
-          <div class="form-group">
-            <label class="control-label col-sm-2" for="email">Nome:</label>
-            <div class="mb-3">
-              <input type="Nome" class="form-control " id="nome" placeholder="Escreva seu nome...">
-            </div>
-            <label class="control-label col-sm-2" for="">E-mail</label>
-            <div class="mb-3">
-              <input type="e-mail" class="form-control" id="email" placeholder="Digite sua duvida">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-sm-2" for="pwd">Sobrenome:</label>
-            <div class="mb-3">
-              <input type="sobreNome" class="form-control" id="sobreNome" placeholder="Digite seu sobrenome...">
-            </div>
-          </div>
-          <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-              <div class="checkbox">
-                <label><input type="checkbox"> Lembrar </label>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="comment">Comentarios:</label>
-            <textarea class="form-control" rows="5" id="deixe um recado." placeholder="Deixe um recado..."></textarea>
-          </div>
-          <div class="form-group">
-            <button type="button" class="button"><a href="../site/index.html">Enviar</a></button>
-          </div>
-        </div>
-    </div>
-  </form>
-</header>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

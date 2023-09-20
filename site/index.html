@@ -1,36 +1,369 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR" class="h-100" data-bs-theme="light">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
-    <link rel="stylesheet" href="../stylecss/indexnovo.css">
-    <!--Bootstrap 5-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.rtl.min.css">
-    <link rel="shortcut icon" href="../Img/logofiv.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="shortcut icon" href="../Img/logofiv.png" type="image/x-icon">
+  <link rel="stylesheet" href="../stylecss/index.css">
+  <title>Home</title>
 </head>
 
 <body>
-   </head>
-    <body>
-        <div class="container">
-            <img src="../Img/logo1.jpg" alt="Avatar" class="image">
-            <div class="overlay">
-                <div class="col-md-7 offset-md-9 p-1">
-                    <img class="red " src="../Img/logofiv.png">
-                    <button type="button" class="btn btn-info"><a href="../site/index.html">HOME </a></button>
-                    <button type="button" class="btn btn-info"><a href="../site/DestinoOf.html">DESTINO</a></button>
-                    <button type="button" class="btn btn-info"><a href="../site/promoçoes.html">PROMOÇÔES</a></button>
-                    <button type="button" class="btn btn-info"><a href="../site/contatos.html">CONTATOS</a></button>
-                    <button type="button" class="btn btn-info"><a href="../site/cadastro.html">CADASTRO</a></button>
-                    
-                    <h1>Bem Vindos!</h1>
-                </div>
-            </div>
+  <header id="header">
+    <nav class="navbar navbar-expand-lg bg-body-light">
+      <div class="container-fluid bg-nav box">
+        <a class="navbar-brand" href="#"><img class="img-fluid st teste-img" src="../img/logo_branco.png"
+            alt="logo do projeto" width="100" height="41"></a>
+        <button class="navbar-toggler bg-light " style="color: rgb(0, 0, 0); " type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto me-5  mb-lg-2 fs-2 gap-5  ">
+            <li class="nav-item">
+              <a class="nav-link t " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link t " href="promoçoes.html"> Destino </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link t" href="promoçoes.html"> Promoções </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link t" href="contatos.html"> Contatos </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link t" href="cadastro.html"> Login </a>
+            </li>
+          </ul>
         </div>
-    </body>
-</html>
+      </div>
+    </nav>
+    <div class=" container " id="texto-logo">
+      <h1> Pesquise hotéis em RenaTour </h1>
+      <h6>Confira preços e ofertas mas recentes de hotéis</h6>
+    </div>
+    </div>
+    <div class="pesquisa  text-center ">
+      <div class="row-cols-md-6">
+        <input type="" placeholder="Pesquise sua viagem">
+        <input type="date">
+        <input type="number" placeholder="Quantidade de Pessoas">
+        <button type="" class="botaop">Pesquisar</button>
+      </div>
+    </div>
+  </header>
+  <!-- carroussel começa aqui -->
+  <hr>
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img src="../Img/BuziosPraia.jpg" alt="Buzios" class="d-block w-100">
+        <div class="carousel-caption">
+          <h3>Buzios</h3>
+          <button type="button" class="botaop" >R$ 1.900.00</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../Img/Chile.jpg" alt="Chile" class="d-block w-100">
+        <div class="carousel-caption">
+          <h3>Chile</h3>
+          <button type="button" class="botaop " >R$ 1.900.00</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../Img/iguacuCarrossel.jpg" alt="Foz" class="d-block w-100">
+        <div class="carousel-caption">
+          <h3>Foz do Iguaçu</h1>
+            <button type="button" class="botaop  ">R$ 1.900.00</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <!-- fimcarrousel -->
+  <hr>
+
+  <div id="about-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>O Mundo encantado da Disney</h3>
+          <img class="img-fluid" src="../Img/Disney.png" alt="Disney">
+        </div>
+        <div class="col-md-6 botoes">
+          <h3 class="about-title">Water Park Orlando! </h3>
+          <p> Principais comodidades do Water Park Orlando</p>
+          <p>Piscina infantil, Vestiários de spa academia, Fitness, Cadeira de massagem, Massagem corporal completa
+          </p>
+          <p> Massagem nos pés, Massagem no pescoço, Massagem nas costas, Pacotes de Spa bem-estar, Banho de imersão
+            para os pés</p>
+          <p>Quartos para famílias, Instalações para pessoas com deficiência, Quartos para não fumantes</p>
+          <ul id="about-list">
+            <li><i class="fas fa-check"></i>Water Park Orlando </li>
+            <li><i class="fas fa-check"></i>Grove Resort Avenue, Orlando, FL 34787, Estados Unidos</li>
+            <li><i class="fas fa-check"></i>utilização de algo </li>
+            <li><i class="fas fa-check"></i>Sistema de pagamento próprio </li>
+            <li><i class="fas fa-check"></i>venham curtir suas ferias com &copy;RENATOUR.</li>
+          </ul>
+          <button type="button" class="botaop " data-bs-toggle="popover"
+            title="Este preço somente hoje" data-bs-content="">
+            R$ 1.500.00
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div id="about-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="main-title"></h3>
+          </div>
+          <div class="col-md-6">
+            <h3>Chile</h3>
+            <img class="img-fluid" src="../Img/Chile.png" alt="Chile">
+          </div>
+          <div class="col-md-6 botoes">
+            <h3 class="about-title">HOTEL TORRE </h3>
+            <p> Comodidades em HOTEL TORRE </p>
+            <p>Lazer infantil, Quartos para não fumantes, Wi-fi grátis e TV</p>
+            <p>Varanda, Janelas desbloqueadas, Banheiro com banheira </p>
+            <p>Estacioanamento acessível, Área com churrasqueira, quadra de futebol </p>
+            <p>Vista panoramica de toda a cidade </p>
+            <ul id="about-li">
+              <li><i class="fas fa-check direita"></i>Avenida Pacifico 761, 1700000, La Serena, Chile.</li>
+              <li><i class="fas fa-check direita"></i>55+21(987051725)☎</li>
+              <li><i class="fas fa-check direita"></i>Endereço de LA CASATOUR</li>
+              <li><i class="fas fa-check direita"></i>CASATOUR@com.br🖨</li>
+              <li><i class="fas fa-check direita"></i>Sistema de pagamento com todos os cartões.💳 </li>
+              <li><i class="fas fa-check direita"></i>Utilizando o site &RENATOUR@ voce ganha cupons de desconto .</li>
+            </ul>
+            <button type="button" class="botaop " data-bs-toggle="popover"
+              title="Este preço somente hoje" data-bs-content="">
+              R$ 1.500.00
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div id="about-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="main-title"></h3>
+          </div>
+          <div class="col-md-6">
+            <h3>Florianópolis</h3>
+            <img class="img-fluid" src="../Img/florianopolis.jpg" alt="Disney">
+          </div>
+          <div class="col-md-6 botoes">
+            <h3 class="about-title"> Beach Apart Hotel</h3>
+            <p>Principais Comodidades do hotel</p>
+            <p>Wi-fi, acesso direto á praia, cadeira de sol, bar na praia</p>
+            <p>Estacionamento, ar-condicionado, banheiro acessível </p>
+            <p>Aceita animais de estimações, cafeteria, serviço de quarto.</p>
+            <ul id="about-list">
+              <li><i class="fas fa-check"></i>Rua Vereador Osni Ortiga, 8888474487, Florianópolis,
+                Brasil</li>
+              <li><i class="fas fa-check"></i> ☎ 55+21(987051725)</li>
+              <li><i class="fas fa-check"></i> 🖨 E-mailCASATOUR@com.br</li>
+              <li><i class="fas fa-check"></i> 💳 Sistema de pagamento com todos os cartões. </li>
+              <li><i class="fas fa-check"></i> Utilizando o site RENATOUR@ voce ganha cupons de desconto.</li>
+            </ul>
+            <button type="button" class="botaop " data-bs-toggle="popover"
+              title="Este preço somente hoje" data-bs-content="">
+              R$ 1.500.00
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div id="about-area">
+        <div class="container">
+          <div class="row" id="ro">
+            <div class="col-12">
+              <h3 class="main-title"></h3>
+            </div>
+            <div class="col-md-6">
+              <h3>CATARATAS DO IGUAÇU</h3>
+              <img class="img-fluid" src="../Img/cataratas iguaçu.jpeg" alt="Cataratas do igguaçu">
+            </div>
+            <div class="col-md-6 botoes">
+              <h3 class="about-title">HOTEL GRAN VISION </h3>
+              <p> Comodidades do GRAN VISION </p>
+              <p>Lazer infantil, Quartos para não fumantes, Wi-fi grátis e TV</p>
+              <p>Varanda de frente para as cataratas, Janelas desbloqueadas, Banheiro com banheira </p>
+              <p>Estacioanamento acessível, Área com churrasqueira, quadra de futebol </p>
+              <ul id="about-li">
+                <li><i class="fas fa-check direita"></i>Endereço do GRAN VISION</li>
+                <li><i class="fas fa-check direita"></i>Avenida Costa e Silva, 85863-000,Foz do Iguaçu, Brasil.</li>
+                <li><i class="fas fa-check direita"></i>55+45(98820922)☎</li>
+                <li><i class="fas fa-check direita"></i>E-mail</li>
+                <li><i class="fas fa-check direita"></i>CASATOUR@com.br🖨</li>
+                <li><i class="fas fa-check direita"></i>Sistema de pagamento com todos os cartões.💳 </li>
+                <li><i class="fas fa-check direita"></i>Utilizando o site &RENATOUR@ voce ganha cupons de desconto .
+                </li>
+              </ul>
+              <button type="button" class="botaop " data-bs-toggle="popover"
+                title="Este preço somente hoje" data-bs-content="">
+                R$ 1.500.00
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="main-title"></h3>
+        </div>
+        <div class="col-md-6">
+          <h3>PARIS</h3>
+          <img class="img-fluid" src="../Img/paris.jpg" alt="Disney">
+        </div>
+        <div class="col-md-6 botoes">
+          <h3 class="about-title"> Apart Hotel Montparnasse</h3>
+          <p>Principais Comodidades do hotel</p>
+          <p>Wi-fi, Acesso ao corredor perto da torre, aceitamos animais de estimação local próprio para os animais</p>
+          <p>Estacionamento, ar-condicionado, banheiro acessível </p>
+          <p>Aceita animais de estimações, cafeteria, serviço de quarto.</p>
+          <ul id="about-list">
+            <li><i class="fas fa-check"></i>19 Rue Commandant René Mouchotte, PARIS, 75014, FRANCE, 75014, Paris, França
+            </li>
+            <li><i class="fas fa-check"></i> ☎ 55+21(987051725)</li>
+            <li><i class="fas fa-check"></i> 🖨 E-mail CASATOUR@com.br </li>
+            <li><i class="fas fa-check"></i> 💳 Sistema de pagamento com todos os cartões. </li>
+            <li><i class="fas fa-check"></i> Utilizando o site RENATOUR@ voce ganha cupons de desconto.</li>
+          </ul>
+          <button type="button" class="botaop " data-bs-toggle="popover"
+            title="Este preço somente hoje" data-bs-content="">
+            R$ 1.500.00
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!-- fim cards normais-->
+  <div class="container-fluid" id="favoritos">
+    <h1 >Pacotes  favoritos</h1>
+  </div>
+  <div class="slider-container"item-display-d="4"item-display-t="3"item-display-m="2">
+    
+    <div class="slider-width">
+      <div class="item"><img src="../Img/Disney.png" style="width: 100%; height: 100%;" alt="">
+      </div>
+      <div class="item">
+        <img src="../Img/foz do iguaçu.jpg" style="width: 100%; height: 100%;" alt="">
+      </div>
+      <div class="item"><img src="../Img/bariloche.png" style="width: 100%; height: 100%;" alt=""></div>
+      <div class="item"><img src="../Img/buzios.jpg" style="width: 100%; height: 100%;" alt=""></div>
+      <div class="item"><img src="../Img/cataratas iguaçu.jpeg" style="width: 100%; height: 100%;" alt=""></div>
+      <div class="item"><img src="../Img/Catedral_Santiago.jpg" style="width: 100%; height: 100%;" alt=""></div>
+      <div class="item"><img src="../Img/Chile.jpg" style="width: 100%; height: 100%;" alt=""></div>
+      <div class="item"><img src="../Img/rionovo.webp" style="width: 100%; height: 100%;" alt=""></div>
+      <div class="item"><img src="../Img/portugal.jpg" style="width: 100%; height: 100%;" alt=""></div>
+      <div class="item"><img src="../Img/saopaulo.jpg" style="width: 100%; height: 100%;" alt=""></div>
+      <div class="item"><img src="../Img/gramado1.jpeg" style="width: 100%; height: 100%;" alt=""></div>
+      <div class="item"><img src="../Img/london.jpeg" style="width: 100%; height: 100%;" alt=""></div>
+      <div class="item"><img src="../Img/ilhabela.jpg" style="width: 100%; height: 100%;" alt=""></div>
+      <div class="item"><img src="../Img/buzios.jpg" style="width: 100%; height: 100%;" alt=""></div>
+      </div>
+  </div>
+  
+  <div class="col-md-12 text-center">
+    <button type="button" class="botaop" onclick="prev()">Anterior</button>
+    <button type="button" class="botaop" onclick="next()">Próximo</button>
+</div>
+  <hr>
+  <!-- rodapé -->
+  <footer id="footerdestino">
+    <div class="container-fluid row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3">
+      <div class="col" id="contact-info">
+        <div class="footer-brand mt-1">
+          <img id="logoRodape" src="../Img/logo_branco.png" alt="Rr" class="img-fluid col-md-6 my-3">
+          <hr>
+        </div>
+        <p><i class="bi bi-geo-alt"></i> Petropólis Rio de Janeiro RJ </p>
+        <hr>
+        <p><i class="bi bi-telephone"></i> (99)9999-9999</p>
+        <hr>
+        <p><i class="bi bi-envelope"></i> renato.david@aluno.recode.org.br</p>
+
+      </div>
+
+      <div class="col mt-5 text-center ">
+        <h4 class="mt-4 my-5 ">Outros serviços</h4>
+        <nav>
+          <a href="#">Propriedade intelecutal</a>
+          <hr>
+          <a href="#">LGPD</a>
+          <hr>
+          <a href="#">Direito internacional</a>
+
+        </nav>
+      </div>
+
+      <div class="col mt-5  ">
+        <div class="social-networks">
+          <h4 class="mt-4 text-center">Acompanhe nossas Redes Sociais</h4>
+
+          <div class="networks  my-5  " >
+            <a href="#"><i class="bi bi-facebook "></i></a>
+            
+            <a href="#"><i class="bi bi-linkedin  "></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div>
+
+        <p class="container text-center mt-5"><i class="bi bi-c-circle"></i> RENATOUR - Todos os direitos
+          reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="../js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
