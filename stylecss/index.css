@@ -162,9 +162,7 @@ button {
     justify-content: center;
 
 }
-.item:hover{
 
-}
 .btn{
     background: var(--secondary-color);
     border: var(--primary-text-color);
