@@ -1,105 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../stylecss/cadastro.css">
-    <link rel="shortcut icon" href="../Img/logofiv.png" type="image/x-icon">
-    <link rel="stylesheet" href="/stylecss/index.css">
-    <title>Cadastro</title>
-    <!-- aqui iremos por um um navbar para poder acessar todas as paginas -->
+    <title>Cadastre-se</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../stylecss/index.css">
 </head>
-<header>
-       <body>
-        <div class="container">
-            <div class="form-image">
-                <img src="../Img/logofiv.png" alt="">
+<body class="bodycadastro">
+   <form action="#" method="post" class="containerC">
+    
+        <div class="container mt-4">
+            <img src="../Img/logo_preto.png" id="logocadastro" alt="renatour">
+            <h2 class="text-center">Cadastre-se</h2>
+        <div class="form-group">
+            <label for="primeiro_nome">Primeiro Nome:</label>
+            <input type="text" class="form-control" id="primeiro_nome" name="primeiro_nome" required>
+        </div>
+
+        <div class="form-group">
+            <label for="cpf_rg">CPF / RG:</label>
+            <input type="text" class="form-control" id="cpf_rg" name="cpf_rg" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="celular">Celular:</label>
+            <input type="tel" class="form-control" id="celular" name="celular" required>
+        </div>
+
+        <div class="form-group">
+            <label for="senha">Senha:</label>
+            <input type="password" class="form-control" id="senha" name="senha" required>
+        </div>
+
+        <div class="form-group">
+            <label for="confirmar_senha">Confirme sua Senha:</label>
+            <input type="password" class="form-control" id="confirmar_senha" name="confirmar_senha" required>
+        </div>
+
+        <div class="form-group">
+            <label>Gênero:</label><br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="feminino" name="genero" value="feminino">
+                <label class="form-check-label" for="feminino">Feminino</label>
             </div>
-            <div class="form">
-                <form action="#">
-                    <div class="form-header">
-                        <div class="title">
-                            <h1>Cadastrar-se</h1>
-                        </div>
-                        <div class="login-button">
-                            <button><a href="index.html">Salvar</a></button>
-                        </div>
-                    </div>
-
-                    <div class="input-group">
-                        <div class="input-box">
-                            <label for="firstname">Primeiro Nome</label>
-                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome"
-                                required>
-                        </div>
-
-                        <div class="input-box">
-                            <label for="lastname">RG/CPF</label>
-                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu RG OU CPF"
-                                required>
-                        </div>
-                        <div class="input-box">
-                            <label for="email">E-mail</label>
-                            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
-                        </div>
-
-                        <div class="input-box">
-                            <label for="number">Celular</label>
-                            <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
-                        </div>
-
-                        <div class="input-box">
-                            <label for="password">Senha</label>
-                            <input id="password" type="password" name="password" placeholder="Digite sua senha"
-                                required>
-                        </div>
-
-
-                        <div class="input-box">
-                            <label for="confirmPassword">Confirme sua Senha</label>
-                            <input id="confirmPassword" type="password" name="confirmPassword"
-                                placeholder="Digite sua senha novamente" required>
-                        </div>
-
-                    </div>
-
-                    <div class="gender-inputs">
-                        <div class="gender-title">
-                            <h6>Gênero</h6>
-                        </div>
-
-                        <div class="gender-group">
-                            <div class="gender-input">
-                                <input id="female" type="radio" name="gender">
-                                <label for="female">Feminino</label>
-                            </div>
-
-                            <div class="gender-input">
-                                <input id="male" type="radio" name="gender">
-                                <label for="male">Masculino</label>
-                            </div>
-
-                            <div class="gender-input">
-                                <input id="others" type="radio" name="gender">
-                                <label for="others">Outros</label>
-                            </div>
-
-                            <div class="gender-input">
-                                <input id="none" type="radio" name="gender">
-                                <label for="none">Prefiro não dizer</label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="continue-button">
-                        <button><a href="index.html">Continuar</a> </button>
-                    </div>
-                </form>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="masculino" name="genero" value="masculino">
+                <label class="form-check-label" for="masculino">Masculino</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="outros" name="genero" value="outros">
+                <label class="form-check-label" for="outros">Outros</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="prefiro_nao_dizer" name="genero" value="prefiro_nao_dizer">
+                <label class="form-check-label" for="prefiro_nao_dizer">Prefiro não dizer</label>
             </div>
         </div>
-    </body>
-</header>
+        <div class="botoes mb-5 pb-4">
+            <button type="submit" class="botaop mb-2 mt-4 ml-3">Continuar</button>
+            <a href="login.html">  <button type="button"   class="botaop ml-3">Voltar</a></button>
+        </div>
+    </form>
+    
+</div>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
 </html>
