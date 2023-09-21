@@ -3,6 +3,7 @@
     -webkit-box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 :root {
@@ -11,7 +12,9 @@
     --secondary-text-color: rgb(69, 0, 81);
     --secondary-color: #700f79;
     --tertiary-color: rgb(101, 44, 122);
-
+    -webkit-box-shadow: inset 10px 10px 160px 0px rgba(112,15,121,0.37);
+    -moz-box-shadow: inset 10px 10px 160px 0px rgba(112,15,121,0.37);
+    box-shadow: inset 10px 10px 160px 0px rgba(112,15,121,0.37);
 
 }
 
@@ -249,11 +252,14 @@ button {
     align-items: center;
     justify-content: center;
     gap: 24px;
+    
+    
 }
 
 .input-box label {
     font: 16px;
     color: var(--primary-text-color);
+    
 }
 
 .input-space {
@@ -280,11 +286,11 @@ button {
 
 .input-space input:focus {
     outline: none;
-}
+} 
 
 div i {
     cursor: pointer;
-}
+} 
 
 #esqueceu-senha {
     display: flex;
@@ -341,11 +347,17 @@ div i {
 header {
     margin: -10px 0px 50px;
     position: relative;
+    -webkit-box-shadow: -4px -1px 9px 1px rgba(112,15,121,1);
+    -moz-box-shadow: -4px -1px 9px 1px rgba(112,15,121,1);
+    box-shadow: -4px -1px 9px 1px rgba(112,15,121,1);
 }
 
 /* carrousel promoçoes */
 head {
     margin-bottom: 50px;
+    -webkit-box-shadow: -4px -1px 9px 5px rgba(190,66,204,1);
+-moz-box-shadow: -4px -1px 9px 5px rgba(190,66,204,1);
+box-shadow: -4px -1px 9px 5px rgba(190,66,204,1);
 }
 
 .about-area,
