@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
+   
 }
 
 :root {
@@ -15,10 +16,11 @@
     -webkit-box-shadow: inset 10px 10px 160px 0px rgba(112,15,121,0.37);
     -moz-box-shadow: inset 10px 10px 160px 0px rgba(112,15,121,0.37);
     box-shadow: inset 10px 10px 160px 0px rgba(112,15,121,0.37);
+    
 
 }
 
-/* botão padronizado */
+/* padronizado */
 .botaop {
     transition: 0.4s;
     background-color: var(--main-color);
@@ -29,8 +31,17 @@
     background-color: var(--secondary-color);
     color: aliceblue;
 }
-
-/* HEADER */
+.img-fluid  {
+    height: 400px;
+    width: auto;
+        
+}
+.teste-img{
+    height: 110px;
+    text-align: center;
+    align-items: center;
+}
+/* HEADER index */
 #header {
     min-height: 90vh;
     background-image: url("../Img/Catedral_Santiago.jpg");
@@ -41,6 +52,15 @@
     position: relative;
 
 }
+#headerdestino{
+    min-height: 90vh;
+    background-image: url("../Img/BuziosPraia.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--main-color);
+    margin: -10px 0px 50px;
+    position: relative;
+}
 
 .container-fluid {
     color: var(--main-color);
@@ -49,6 +69,29 @@
     justify-content: space-evenly;
 
 }
+
+#pesquisa{
+    background-image: url(../Img/localização.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.7rem;
+    padding-left: 1.5rem;
+}
+#data{
+    
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.7rem;
+    padding-left: 1.5rem;
+}
+#pessoas{
+    background-image: url(../Img/pessoas.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.7rem;
+    padding-left: 1.5rem;
+}
+
 
 .nav-link,
 t,
@@ -83,15 +126,15 @@ option {
     background-color: rgba(255, 255, 255, 0.986);
     color: black;
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: 17px;
     text-align: center;
-    grid: 2%;
+    margin: 1%;
     border-color: #700f79;
 
 }
 
 #texto-logo {
-    color: var(--main-color);
+    color: var(--main-color); 
     padding: 2%;
     margin: 20px 0px;
 }
@@ -160,15 +203,26 @@ button {
 
 .item {
     background: rgb(101, 44, 122);
-    width: 300px;
-    height: 200px;
+    width: 450px;
+    height: 250px;
     margin: 0 10px;
     text-align: center;
-    font-size: 40px;
-    font-weight: 800;
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+.itemDestino {
+    width: 450px;
+    height: 250px;
+    margin: 0 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(101, 44, 122);
+    
+   
 
 }
 
@@ -183,6 +237,7 @@ button {
     cursor: pointer;
     left: 500%;
     transform: translate(-50%);
+    
 
 }
 
@@ -298,6 +353,7 @@ div i {
 }
 
 #esqueceu-senha a {
+    margin-bottom: 2px;
     text-decoration: none;
     font-size: 16px;
     color: var(--primary-text-color);
@@ -309,9 +365,10 @@ div i {
 }
 
 #login-button {
+    gap: 2px;
     border: none;
     box-shadow: 0px 1px 4px 1px var(--secondary-color);
-    padding: 7px;
+   padding: 7px;
     border-radius: 4px;
     color: var(--secondary-color);
     font-weight: bold;
@@ -321,6 +378,7 @@ div i {
 }
 
 #login-button:hover {
+    background: var(--secondary-color);
     transition: 0.4s;
     transform: scale(1.1);
 }
@@ -331,7 +389,9 @@ div i {
 }
 
 #logo {
+    gap: 2%;
     margin-bottom: 2%;
+    
 }
 
 #form-footer {
@@ -356,8 +416,8 @@ header {
 head {
     margin-bottom: 50px;
     -webkit-box-shadow: -4px -1px 9px 5px rgba(190,66,204,1);
--moz-box-shadow: -4px -1px 9px 5px rgba(190,66,204,1);
-box-shadow: -4px -1px 9px 5px rgba(190,66,204,1);
+    -moz-box-shadow: -4px -1px 9px 5px rgba(190,66,204,1);
+    box-shadow: -4px -1px 9px 5px rgba(190,66,204,1);
 }
 
 .about-area,
@@ -365,9 +425,7 @@ box-shadow: -4px -1px 9px 5px rgba(190,66,204,1);
     margin: 20px;
 }
 
-#favoritos {
-    margin: 60px 0px;
-}
+
 
 .f {
     height: 20%;
@@ -394,6 +452,7 @@ box-shadow: -4px -1px 9px 5px rgba(190,66,204,1);
     color: var(--primary-text-color);
     
 }
+/* destino */
 .containerC{
     margin:auto ;
     padding:auto;
@@ -402,4 +461,22 @@ box-shadow: -4px -1px 9px 5px rgba(190,66,204,1);
     -webkit-box-shadow: -2px 0px 20px 5px rgba(143,5,156,1);
     -moz-box-shadow: -2px 0px 20px 5px rgba(143,5,156,1);
     box-shadow: -2px 0px 20px 5px rgba(143,5,156,1);
+}
+
+#cardc{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+@media (max-width: 768px) {
+    
+    .botaop{
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+        
+    }
+   
 }

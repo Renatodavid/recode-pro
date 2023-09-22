@@ -54,7 +54,13 @@ function prev() {
     }
     slider.style.left = count + "px";
 }
-// Pagina login
+// popovier
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+
+
 function showPassword () {
     let inputPass = document.getElementById('password')
     let btnShowPass = document.getElementById('btn-password')
@@ -68,9 +74,3 @@ function showPassword () {
     }
 }
 
-// promoções
-var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-  return new bootstrap.Popover(popoverTriggerEl)
-})
-// botao voltar
