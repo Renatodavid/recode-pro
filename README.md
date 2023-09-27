@@ -32,7 +32,7 @@ Tabela 'promocoes':
     A cardinalidade é "1 para muitos" do lado das promoções e "1 para 1" do lado das reservas.
     </p>
     
-    <hr>
+    
     
 <h2> Tabela <strong> 'pacotes': </strong></h2>
 
