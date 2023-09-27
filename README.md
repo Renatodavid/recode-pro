@@ -1,4 +1,4 @@
-<h1 >Segue o banco de dados feito no BrModelo e uma breve explicação.h1/>
+<h1 >Segue o banco de dados feito no BrModelo e uma breve explicação. <h1/>
 <hr>
 
  <h2> Tabela <strong>'usuario'</strong>:</h2>
