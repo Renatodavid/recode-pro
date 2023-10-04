@@ -10,7 +10,7 @@ Reserva para Agência:
 
 Uma reserva pertence a exatamente uma agência. (N:1)
 Uma agência pode ter zero ou várias reservas. (1:N)
-Essas cardinalidades indicam o seguinte:
+
 
 Cada usuário pode realizar várias reservas, mas cada reserva é associada a apenas um usuário.
 Cada reserva está vinculada a uma agência específica, mas uma agência pode ter várias reservas associadas a ela.
