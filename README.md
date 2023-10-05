@@ -19,6 +19,7 @@ Lembrando que as cardinalidades podem variar de acordo com os requisitos do seu 
  <hr>
 
 ![entrega modelo conceitual br modelo](https://github.com/Renatodavid/recode-pro/assets/106851081/f2f99353-f8e5-4170-976f-10199cd009a0)
+
 <hr>
 
 ![modelo logico fim](https://github.com/Renatodavid/recode-pro/assets/106851081/c090ed62-7dec-4c14-a5b6-197cf354bcc1)
