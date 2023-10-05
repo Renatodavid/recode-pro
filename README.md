@@ -17,3 +17,4 @@ Cada reserva está vinculada a uma agência específica, mas uma agência pode t
 Lembrando que as cardinalidades podem variar de acordo com os requisitos do seu sistema. Se você tiver mais informações sobre os relacionamentos ou requisitos específicos, as cardinalidades podem ser ajustadas de acordo com essas necessidades.
  </p>
 
+![image](https://github.com/Renatodavid/recode-pro/assets/106851081/c74e8541-ea86-438e-b308-9da238c62c7b)
