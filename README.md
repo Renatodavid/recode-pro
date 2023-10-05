@@ -16,6 +16,7 @@ Cada usuário pode realizar várias reservas, mas cada reserva é associada a ap
 Cada reserva está vinculada a uma agência específica, mas uma agência pode ter várias reservas associadas a ela.
 Lembrando que as cardinalidades podem variar de acordo com os requisitos do seu sistema. Se você tiver mais informações sobre os relacionamentos ou requisitos específicos, as cardinalidades podem ser ajustadas de acordo com essas necessidades.
  </p>
+ <hr>
 
 ![entrega modelo conceitual br modelo](https://github.com/Renatodavid/recode-pro/assets/106851081/f2f99353-f8e5-4170-976f-10199cd009a0)
 <hr>
