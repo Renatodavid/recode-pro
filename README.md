@@ -32,32 +32,3 @@ Cada reserva está vinculada a uma agência específica, mas uma agência pode t
 ![modelo logico sql 2° parte](https://github.com/Renatodavid/recode-pro/assets/106851081/7e3b6ca3-dc31-4dbd-8da7-fb0d35452bf8)
 
 <hr>
-<h1>Segue o codigo do modelo fisíco  </h1>
-CREATE TABLE agenciaRr (
-agenciaRr_cd_id INTEGER PRIMARY KEY,
-data_saida DECIMAL(10),
-hora_chegada DATETIME,
-hora_partidatime DATETIME,
-data_chegada_dt DATETIME,
-reserva_cd_id INTEGER
-);
-CREATE TABLE Usuario (
-usu_cd_id INTEGER PRIMARY KEY,
-usu_tx_nome_usuario VARCHAR(100),
-celular_tx VARCHAR(15),
-usu_tx_cpf VARCHAR(11),
-usu_tx_email VARCHAR(100),
-senha_tx VARCHAR(8),
-genero_tx VARCHAR(100)
-);
-CREATE TABLE reserva (
-reserva_cd_ INTEGER PRIMARY KEY,
-origem_tx VARCHAR(100),
-destino_tx VARCHAR(100),
-valor_Double NUMERIC(65),
-usu_cd_id INTEGER,
-FOREIGN KEY(usu_cd_id) REFERENCES Usuario (usu_cd_id)
-);
-ALTER TABLE agenciaRr ADD FOREIGN KEY(reserva_cd_id) REFERENCES reserva (reserva_cd_id);
-
-
