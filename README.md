@@ -22,7 +22,8 @@ Cada reserva está vinculada a uma agência específica, mas uma agência pode t
 
 <hr>
 
-![modelo logico fim](https://github.com/Renatodavid/recode-pro/assets/106851081/c090ed62-7dec-4c14-a5b6-197cf354bcc1)
+![modelo logico fim](https://github.com/Renatodavid/recode-pro/assets/106851081/fa61cfb1-7317-499a-9ed9-10f90405a9a1)
+
 
 <hr>
 
@@ -31,7 +32,7 @@ Cada reserva está vinculada a uma agência específica, mas uma agência pode t
 ![modelo logico sql 2° parte](https://github.com/Renatodavid/recode-pro/assets/106851081/7e3b6ca3-dc31-4dbd-8da7-fb0d35452bf8)
 
 <hr>
-<h1>Segue o codigo do modelo fisíco + arquivo </h1>
+<h1>Segue o codigo do modelo fisíco  </h1>
 CREATE TABLE agenciaRr (
 agenciaRr_cd_id INTEGER PRIMARY KEY,
 data_saida DECIMAL(10),
@@ -58,5 +59,5 @@ usu_cd_id INTEGER,
 FOREIGN KEY(usu_cd_id) REFERENCES Usuario (usu_cd_id)
 );
 ALTER TABLE agenciaRr ADD FOREIGN KEY(reserva_cd_id) REFERENCES reserva (reserva_cd_id);
-<hr>
-[Uploading entregaModeloFisico.sql…]()
+
+
