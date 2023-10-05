@@ -23,6 +23,8 @@ Lembrando que as cardinalidades podem variar de acordo com os requisitos do seu 
 
 ![modelo logico fim](https://github.com/Renatodavid/recode-pro/assets/106851081/c090ed62-7dec-4c14-a5b6-197cf354bcc1)
 
+<hr>
+
 ![modelo logicosql](https://github.com/Renatodavid/recode-pro/assets/106851081/b5845c78-adc6-4ac8-9618-bb65080fdf18)
 
 ![modelo logico sql 2° parte](https://github.com/Renatodavid/recode-pro/assets/106851081/7e3b6ca3-dc31-4dbd-8da7-fb0d35452bf8)
