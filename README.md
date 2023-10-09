@@ -18,17 +18,5 @@ Cada reserva está vinculada a uma agência específica, mas uma agência pode t
  </p>
  <hr>
 
-![entrega modelo conceitual br modelo](https://github.com/Renatodavid/recode-pro/assets/106851081/f2f99353-f8e5-4170-976f-10199cd009a0)
-
-<hr>
-
-![modelo logico fim](https://github.com/Renatodavid/recode-pro/assets/106851081/fa61cfb1-7317-499a-9ed9-10f90405a9a1)
-
-
-<hr>
-
-![modelo logicosql](https://github.com/Renatodavid/recode-pro/assets/106851081/b5845c78-adc6-4ac8-9618-bb65080fdf18)
-
-![modelo logico sql 2° parte](https://github.com/Renatodavid/recode-pro/assets/106851081/7e3b6ca3-dc31-4dbd-8da7-fb0d35452bf8)
 
 <hr>
