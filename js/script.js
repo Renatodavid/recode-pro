@@ -54,7 +54,7 @@ function prev() {
     }
     slider.style.left = count + "px";
 }
-// popovier
+
 var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
 var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
   return new bootstrap.Popover(popoverTriggerEl)
@@ -73,4 +73,6 @@ function showPassword () {
         btnShowPass.classList.replace('fa-eye-slash','fa-eye')
     }
 }
+       
+
 
