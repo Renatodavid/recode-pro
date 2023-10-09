@@ -15,18 +15,6 @@
 <br>
 <hr>
 
-![modeloFisicoBrModelo](https://github.com/Renatodavid/recode-pro/assets/106851081/4a7d5b1b-dd62-4b45-8660-8b284cb40283)
-<br>
-<hr>
-
-![modeloConceitualBrModelo](https://github.com/Renatodavid/recode-pro/assets/106851081/1fb7bdb3-2447-4fb2-956b-1449f9a6c746)
-<br>
-<hr>
-
-![modelo fisico mysql](https://github.com/Renatodavid/recode-pro/assets/106851081/676daea3-2d3f-4eec-b645-192bdd0c484f)
-<br>
-<hr>
-
 ![modeloConceitualfinal](https://github.com/Renatodavid/recode-pro/assets/106851081/d7959027-64fe-4e57-b005-855f93abb35b)
 
 <hr>
