@@ -1,15 +1,18 @@
 
 <h1>Modelos conceitual e logico </h1>
 
+![modelo conceitual](https://github.com/Renatodavid/recode-pro/assets/106851081/c41fae69-5fd1-4d34-8820-d5d4cb9b157e)
 
 
-![modeloLogicoBrModelo](https://github.com/Renatodavid/recode-pro/assets/106851081/06131ec7-3cd0-44aa-8fde-deadbb76c362)
+
 <br>
 <hr>
 
-![modeloConceitualfinal](https://github.com/Renatodavid/recode-pro/assets/106851081/d7959027-64fe-4e57-b005-855f93abb35b)
+![modelo logico br modelo](https://github.com/Renatodavid/recode-pro/assets/106851081/8f323c7d-f988-4357-bfdb-e8f2d2028fa3)
 
 <hr>
+
+
 <h1>Uma breve explicação das cardinalidades</h1>
 <hr>
 <p>
